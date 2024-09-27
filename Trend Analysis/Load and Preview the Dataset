@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Load the dataset (assuming the data is in a CSV file)
+df = pd.read_csv("your_timeseries_data.csv")
+
+# Display the first few rows
+print(df.head())
+
+# Check for basic information like data types and missing values
+print(df.info())
